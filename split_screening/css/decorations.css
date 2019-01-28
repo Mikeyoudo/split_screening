@@ -39,14 +39,20 @@ body {
 
 .layer img {
   position: absolute;
-  width: 35%;
+  width: 100%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
+.layer .content-body {
+  color: white;
+  z-index: 10;
+}
+
 .layer h1 {
   font-size: 2em;
+
 }
 
 .bottom {
@@ -59,8 +65,25 @@ body {
 }
 
 .bottom h1 {
-  color: #FDAB00;
+  color: white;
 }
+
+.bottom p {
+  color: white;
+}
+
+.top h1 {
+  font-family: trebuchet;
+  color: white;
+}
+
+.top p {
+  font-family: cursive;
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+}
+
 
 .top {
   background: #eee;
